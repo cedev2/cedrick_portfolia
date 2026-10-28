@@ -1,0 +1,611 @@
+{
+  "settings": [
+    {
+      "setting_key": "site_name",
+      "setting_type": "text",
+      "setting_value": "NIBISHAKA CEDRICK"
+    },
+    {
+      "setting_key": "site_title",
+      "setting_type": "text",
+      "setting_value": "NIBISHAKA CEDRICK | Full Stack Software Developer"
+    },
+    {
+      "setting_key": "site_description",
+      "setting_type": "textarea",
+      "setting_value": "Full Stack Software Developer building modern, scalable, and user-friendly digital solutions."
+    },
+    {
+      "setting_key": "hero_title",
+      "setting_type": "text",
+      "setting_value": "NIBISHAKA CEDRICK"
+    },
+    {
+      "setting_key": "hero_greeting",
+      "setting_type": "text",
+      "setting_value": "Hello, I'm"
+    },
+    {
+      "setting_key": "hero_description",
+      "setting_type": "textarea",
+      "setting_value": "I design and build modern, scalable, secure, and user-friendly software solutions that solve real-world problems."
+    },
+    {
+      "setting_key": "footer_email",
+      "setting_type": "text",
+      "setting_value": "cedrickrwa@gmail.com"
+    },
+    {
+      "setting_key": "footer_phone",
+      "setting_type": "text",
+      "setting_value": "+250791801839"
+    },
+    {
+      "setting_key": "footer_address",
+      "setting_type": "text",
+      "setting_value": "Kigali, Rwanda"
+    },
+    {
+      "setting_key": "footer_copyright",
+      "setting_type": "text",
+      "setting_value": "NIBISHAKA CEDRICK"
+    },
+    {
+      "setting_key": "hero_image",
+      "setting_type": "image",
+      "setting_value": "/images/171354.png"
+    },
+    {
+      "setting_key": "about_image",
+      "setting_type": "image",
+      "setting_value": "/images/171377.png"
+    },
+    {
+      "setting_key": "ai_enabled",
+      "setting_type": "text",
+      "setting_value": "1"
+    },
+    {
+      "setting_key": "ai_name",
+      "setting_type": "text",
+      "setting_value": "Cedrick AI"
+    },
+    {
+      "setting_key": "ai_greeting",
+      "setting_type": "text",
+      "setting_value": "Hello! I'm Cedrick AI, your personal assistant. How can I help you today?"
+    },
+    {
+      "setting_key": "system_prompt",
+      "setting_type": "text",
+      "setting_value": ""
+    },
+    {
+      "setting_key": "temperature",
+      "setting_type": "text",
+      "setting_value": "0.7"
+    },
+    {
+      "setting_key": "max_tokens",
+      "setting_type": "text",
+      "setting_value": "2048"
+    },
+    {
+      "setting_key": "conversation_length",
+      "setting_type": "text",
+      "setting_value": "10"
+    },
+    {
+      "setting_key": "fallback_provider",
+      "setting_type": "text",
+      "setting_value": "ejolabs"
+    },
+    {
+      "setting_key": "pricing_info",
+      "setting_type": "textarea",
+      "setting_value": "Website Development starts from $500. Custom web apps from $1,000. Consultation is free."
+    },
+    {
+      "setting_key": "pricing_min",
+      "setting_type": "text",
+      "setting_value": "$300"
+    },
+    {
+      "setting_key": "pricing_payment",
+      "setting_type": "text",
+      "setting_value": "Bank Transfer, Mobile Money, PayPal"
+    },
+    {
+      "setting_key": "pricing_note",
+      "setting_type": "textarea",
+      "setting_value": "Final price depends on project complexity. Free consultation available."
+    },
+    {
+      "setting_key": "availability_status",
+      "setting_type": "text",
+      "setting_value": "available"
+    }
+  ],
+  "site_information": [
+    {
+      "key_name": "owner_name",
+      "value": "NIBISHAKA CEDRICK"
+    },
+    {
+      "key_name": "owner_email",
+      "value": "cedrickrwa@gmail.com"
+    },
+    {
+      "key_name": "owner_phone",
+      "value": "+250791801839"
+    },
+    {
+      "key_name": "owner_location",
+      "value": "Kigali, Rwanda"
+    },
+    {
+      "key_name": "owner_languages",
+      "value": "English, Kinyarwanda, French"
+    },
+    {
+      "key_name": "owner_experience_years",
+      "value": "3+"
+    },
+    {
+      "key_name": "owner_bio",
+      "value": "Passionate Full Stack Software Developer with expertise in modern web technologies. Building scalable solutions and creating impactful digital experiences."
+    },
+    {
+      "key_name": "typing_texts",
+      "value": "[\"Software Developer\",\"Full Stack Developer\",\"Frontend Developer\",\"Backend Developer\",\"Problem Solver\"]"
+    },
+    {
+      "key_name": "owner_story",
+      "value": "Started coding at a young age, fell in love with building things that solve real problems. Now focused on full-stack development and helping businesses grow through technology."
+    },
+    {
+      "key_name": "owner_hobbies",
+      "value": "Coding, learning new technologies, open source contributions, tech meetups, playing football, and exploring creative ways to solve problems."
+    },
+    {
+      "key_name": "owner_goals",
+      "value": "To build impactful software that solves real-world problems, grow as a full-stack engineer, and contribute to innovative tech projects globally."
+    },
+    {
+      "key_name": "owner_fun_facts",
+      "value": "Can speak English, Kinyarwanda, and French fluently. Loves turning complex problems into elegant solutions."
+    },
+    {
+      "key_name": "hero_greeting",
+      "value": "Hello, I'm"
+    },
+    {
+      "key_name": "cv_url",
+      "value": "/uploads/resume/cv_c06d2eb27437250a.pdf"
+    }
+  ],
+  "ai_settings": [
+    {
+      "setting_key": "temperature",
+      "setting_type": "text",
+      "setting_value": "0.7"
+    },
+    {
+      "setting_key": "max_tokens",
+      "setting_type": "text",
+      "setting_value": "2048"
+    },
+    {
+      "setting_key": "system_prompt",
+      "setting_type": "textarea",
+      "setting_value": "You are Cedrick AI, the personal AI assistant of NIBISHAKA CEDRICK. Answer all questions about Cedrick using the portfolio context provided. Speak warmly, professionally, and accurately. Never invent facts."
+    },
+    {
+      "setting_key": "conversation_length",
+      "setting_type": "text",
+      "setting_value": "10"
+    },
+    {
+      "setting_key": "ai_enabled",
+      "setting_type": "boolean",
+      "setting_value": "1"
+    },
+    {
+      "setting_key": "fallback_provider",
+      "setting_type": "text",
+      "setting_value": "builtin"
+    },
+    {
+      "setting_key": "ai_name",
+      "setting_type": "text",
+      "setting_value": "Cedrick AI"
+    },
+    {
+      "setting_key": "ai_greeting",
+      "setting_type": "textarea",
+      "setting_value": "Hello! I'm Cedrick AI, your personal assistant. How can I help you today?"
+    },
+    {
+      "setting_key": "ejolabs_api_key",
+      "setting_type": "text",
+      "setting_value": "your_ejolabs_api_key_here"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5",
+      "category": "Frontend",
+      "deleted_at": null,
+      "icon": "fa-html5",
+      "icon_color": "#e34f26",
+      "percentage": 95,
+      "sort_order": 1
+    },
+    {
+      "name": "CSS3",
+      "category": "Frontend",
+      "deleted_at": null,
+      "icon": "fa-css3-alt",
+      "icon_color": "#1572b6",
+      "percentage": 90,
+      "sort_order": 2
+    },
+    {
+      "name": "JavaScript",
+      "category": "Frontend",
+      "deleted_at": null,
+      "icon": "fa-js",
+      "icon_color": "#f7df1e",
+      "percentage": 92,
+      "sort_order": 3
+    },
+    {
+      "name": "React",
+      "category": "Frontend",
+      "deleted_at": null,
+      "icon": "fa-react",
+      "icon_color": "#61dafb",
+      "percentage": 85,
+      "sort_order": 4
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "deleted_at": null,
+      "icon": "fa-node-js",
+      "icon_color": "#68a063",
+      "percentage": 85,
+      "sort_order": 5
+    },
+    {
+      "name": "PHP",
+      "category": "Backend",
+      "deleted_at": null,
+      "icon": "fa-php",
+      "icon_color": "#777bb4",
+      "percentage": 78,
+      "sort_order": 6
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database",
+      "deleted_at": null,
+      "icon": "fa-leaf",
+      "icon_color": "#47A248",
+      "percentage": 85,
+      "sort_order": 7
+    },
+    {
+      "name": "Git",
+      "category": "Tools",
+      "deleted_at": null,
+      "icon": "fa-git-alt",
+      "icon_color": "#f05032",
+      "percentage": 90,
+      "sort_order": 8
+    }
+  ],
+  "services": [
+    {
+      "title": "Full Stack Web Development",
+      "deleted_at": null,
+      "description": "End-to-end web application development using modern frameworks, scalable MongoDB architectures, and robust API endpoints.",
+      "icon": "fa-code",
+      "pricing": null,
+      "pricing_note": null,
+      "sort_order": 1
+    },
+    {
+      "title": "GRAPHIC DESIGN",
+      "deleted_at": null,
+      "description": "Good memory Need the real People for the real Skills for the job",
+      "icon": "",
+      "pricing": null,
+      "pricing_note": null,
+      "sort_order": 0
+    },
+    {
+      "title": "Website Development",
+      "deleted_at": null,
+      "description": "Modern, responsive, and performant websites built with the latest technologies.",
+      "icon": "fa-code",
+      "pricing": "$500 - $2,500",
+      "pricing_note": "Varies by pages and features",
+      "sort_order": 1
+    },
+    {
+      "title": "Web Application Development",
+      "deleted_at": null,
+      "description": "Full-stack web applications with robust architecture and seamless user experience.",
+      "icon": "fa-laptop-code",
+      "pricing": "$1,000 - $5,000+",
+      "pricing_note": "Varies by complexity",
+      "sort_order": 2
+    },
+    {
+      "title": "UI/UX Design",
+      "deleted_at": null,
+      "description": "Intuitive and visually appealing interfaces designed with user-centered principles.",
+      "icon": "fa-paint-brush",
+      "pricing": "$300 - $1,500",
+      "pricing_note": "Per project",
+      "sort_order": 3
+    },
+    {
+      "title": "REST API Development",
+      "deleted_at": null,
+      "description": "Scalable and well-documented RESTful APIs for modern applications.",
+      "icon": "fa-plug",
+      "pricing": "$400 - $2,000",
+      "pricing_note": "Based on endpoints",
+      "sort_order": 4
+    },
+    {
+      "title": "Database Design",
+      "deleted_at": null,
+      "description": "Efficient database schemas optimized for performance and scalability.",
+      "icon": "fa-database",
+      "pricing": "$200 - $1,000",
+      "pricing_note": "Based on complexity",
+      "sort_order": 5
+    },
+    {
+      "title": "Bug Fixing & Support",
+      "deleted_at": null,
+      "description": "Thorough debugging, code optimization, and technical support.",
+      "icon": "fa-bug",
+      "pricing": "$50 - $250",
+      "pricing_note": "Per issue",
+      "sort_order": 6
+    },
+    {
+      "title": "Website Maintenance",
+      "deleted_at": null,
+      "description": "Regular updates, security patches, and performance monitoring.",
+      "icon": "fa-wrench",
+      "pricing": "$100 - $300/month",
+      "pricing_note": "Monthly retainer",
+      "sort_order": 7
+    },
+    {
+      "title": "System Integration",
+      "deleted_at": null,
+      "description": "Seamless integration of third-party services and APIs.",
+      "icon": "fa-sync-alt",
+      "pricing": "$300 - $2,000",
+      "pricing_note": "Based on systems involved",
+      "sort_order": 8
+    }
+  ],
+  "projects": [
+    {
+      "title": "HireLens",
+      "category": "fullstack",
+      "deleted_at": null,
+      "description": "A high-performance full-stack web application featuring RESTful APIs, responsive frontend, and secure database architecture.",
+      "end_date": null,
+      "github_url": "https://github.com",
+      "images": [],
+      "is_featured": 1,
+      "live_url": "https://hirelens-kappa-olive.vercel.app/",
+      "pdf_file": null,
+      "sort_order": 1,
+      "start_date": null,
+      "status": "completed",
+      "technologies": "React, Node.js, nextjs, MongoDB, Tailwind CSS",
+      "thumbnail": "/uploads/projects/project-placeholder.png"
+    },
+    {
+      "title": "Full Stack Web Application",
+      "category": "fullstack",
+      "deleted_at": null,
+      "description": "A high-performance full-stack web application featuring RESTful APIs, responsive frontend, and secure database architecture.",
+      "end_date": null,
+      "github_url": "https://github.com",
+      "images": [],
+      "is_featured": 1,
+      "live_url": "http://localhost:3000",
+      "pdf_file": null,
+      "sort_order": 1,
+      "start_date": null,
+      "status": "completed",
+      "technologies": "React, Node.js, PHP, MongoDB, Tailwind CSS",
+      "thumbnail": "/uploads/projects/project-placeholder-2.png"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "Helox Tech",
+      "deleted_at": null,
+      "description": "Building scalable web applications, designing RESTful APIs, and implementing responsive UI interfaces.",
+      "end_date": null,
+      "image": null,
+      "is_current": 1,
+      "location": "Kigali, Rwanda",
+      "sort_order": 1,
+      "start_date": "2023-01-01T00:00:00.000Z"
+    }
+  ],
+  "education": [
+    {
+      "title": "Software Development",
+      "institution": "insitute Don Bosco Kabarondo",
+      "deleted_at": null,
+      "description": "Focused on software engineering principles, web development, algorithms, and database management.",
+      "end_date": null,
+      "image": "",
+      "is_current": 1,
+      "location": "Kigali, Rwanda",
+      "sort_order": 1,
+      "start_date": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "institution": "Apaer",
+      "title": "Software Development & Computer Science",
+      "deleted_at": null,
+      "description": "Focused on software engineering principles, web development, algorithms, and database management.",
+      "end_date": "2024-01-01T00:00:00.000Z",
+      "image": null,
+      "is_current": 0,
+      "location": "Kigali, Rwanda",
+      "sort_order": 1,
+      "start_date": "2022-01-01T00:00:00.000Z"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Playstore Listing",
+      "category": "clouding",
+      "certificate_number": "FSWD-2024-001",
+      "certificate_url": null,
+      "credential_url": "https://coursera.org",
+      "deleted_at": null,
+      "description": "Professional certification covering modern playsore listing for the playsore",
+      "expiry_date": "2030-01-28T00:00:00.000Z",
+      "files": [],
+      "issue_date": "2026-01-28T00:00:00.000Z",
+      "organization": "Meta / Coursera",
+      "preview_image": "/uploads/certificates/certificate-placeholder.png",
+      "sort_order": 1
+    },
+    {
+      "title": "Full Stack Web Development Certification",
+      "category": "Development",
+      "certificate_number": "FSWD-2024-001",
+      "certificate_url": null,
+      "credential_url": "https://coursera.org",
+      "deleted_at": null,
+      "description": "Professional certification covering modern web technologies, React, server architecture, and database design.",
+      "expiry_date": null,
+      "files": [],
+      "issue_date": "2024-01-15T00:00:00.000Z",
+      "organization": "Meta / Coursera",
+      "preview_image": "/uploads/certificates/certificate-placeholder-2.png",
+      "sort_order": 1
+    }
+  ],
+  "blog_categories": [
+    {
+      "slug": "web-development",
+      "description": "Articles about web development technologies and tutorials",
+      "name": "Web Development"
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "building-modern-scalable-web-applications",
+      "author": "NIBISHAKA CEDRICK",
+      "content": "In this article, we explore key principles and best practices for developing fast, secure, and user-friendly web applications.",
+      "deleted_at": null,
+      "image": null,
+      "meta_description": "Learn best practices for building scalable web applications with React and PHP.",
+      "meta_title": "Building Modern Web Applications",
+      "published_date": "2024-06-01T08:00:00.000Z",
+      "reading_time": 5,
+      "sort_order": 1,
+      "status": "published",
+      "title": "Building Modern & Scalable Web Applications",
+      "category": "web-development"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "W.Deborah",
+      "avatar": null,
+      "company": "Tech Innovation Lab",
+      "content": "CEDRICK delivered an exceptional web application with great attention to detail and performance. Highly recommended!",
+      "deleted_at": null,
+      "position": "Project Lead",
+      "rating": 5,
+      "sort_order": 1
+    },
+    {
+      "name": "Jean Paul M.",
+      "avatar": null,
+      "company": "Tech Innovation Lab",
+      "content": "CEDRICK delivered an exceptional web application with great attention to detail and performance. Highly recommended!",
+      "deleted_at": null,
+      "position": "Project Lead",
+      "rating": 5,
+      "sort_order": 1
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Projects Completed",
+      "count": 10,
+      "deleted_at": null,
+      "icon": "fa-code-branch",
+      "sort_order": 1
+    }
+  ],
+  "social_links": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com",
+      "icon": "fa-github",
+      "is_active": 1,
+      "sort_order": 1
+    },
+    {
+      "url": "https://linkedin.com",
+      "platform": "LinkedIn",
+      "icon": "fa-linkedin-in",
+      "is_active": 1,
+      "sort_order": 2
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "fa-twitter",
+      "is_active": 1,
+      "sort_order": 3
+    },
+    {
+      "url": "https://wa.me/250791801839",
+      "platform": "WhatsApp",
+      "icon": "fa-whatsapp",
+      "is_active": 1,
+      "sort_order": 4
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:cedrickrwa@gmail.com",
+      "icon": "fa-envelope",
+      "is_active": 1,
+      "sort_order": 5
+    }
+  ],
+  "resume": [
+    {
+      "title": "cedick Nibishaka",
+      "file_path": "/uploads/resume/cv_c06d2eb27437250a.pdf",
+      "file_type": "pdf",
+      "file_size": 194662,
+      "download_count": 0,
+      "doc_type": "cv",
+      "is_active": 1
+    }
+  ]
+}
