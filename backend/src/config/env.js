@@ -13,11 +13,20 @@ const toInt = (value, fallback) => {
 
 const nodeEnv = process.env.NODE_ENV || 'development';
 
+const parseOrigins = (value) =>
+  String(value ?? '')
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+
+const clientOrigins = parseOrigins(process.env.CLIENT_ORIGIN);
+
 export const env = {
   nodeEnv,
   isProduction: nodeEnv === 'production',
   port: toInt(process.env.PORT, 4000),
-  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+  clientOrigin: clientOrigins[0] || 'http://localhost:5173',
+  clientOrigins,
 
   mongoUri:
     process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/portfolio_db',

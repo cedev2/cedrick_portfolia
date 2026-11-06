@@ -22,9 +22,19 @@ app.use(
   }),
 );
 
+if (env.isProduction && env.clientOrigins.length === 0) {
+  console.warn(
+    '[cors] CLIENT_ORIGIN is not set. Allowing all origins; set it to your frontend URL(s), comma separated, to restrict access.',
+  );
+}
+
 app.use(
   cors({
-    origin: env.isProduction ? env.clientOrigin : true,
+    // In production only the configured frontend origin(s) are allowed so the
+    // API cannot be embedded by third-party sites. Multiple origins (custom
+    // domain + Vercel preview URLs) can be comma separated in CLIENT_ORIGIN.
+    origin:
+      env.isProduction && env.clientOrigins.length > 0 ? env.clientOrigins : true,
     credentials: true,
   }),
 );

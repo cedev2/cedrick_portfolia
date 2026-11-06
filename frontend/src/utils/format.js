@@ -1,6 +1,7 @@
 /**
  * Formats values coming from the API for display.
  */
+import { API_BASE_URL } from '../api/base.js';
 
 const MONTHS = [
   'Jan',
@@ -95,7 +96,7 @@ export const assetUrl = (path) => {
   if (!path) return '';
   if (/^https?:\/\//i.test(path)) return path;
   if (path.startsWith('/uploads') || path.startsWith('/public')) {
-    return `${(import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '')}${path}`;
+    return `${API_BASE_URL}${path}`;
   }
   return path;
 };

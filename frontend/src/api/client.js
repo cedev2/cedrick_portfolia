@@ -5,7 +5,9 @@
  * `{ success, message, data }`, so this layer unwraps `data` and throws a
  * regular Error carrying the API message when the request fails.
  */
-const BASE_URL = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
+import { API_BASE_URL } from './base.js';
+
+const BASE_URL = API_BASE_URL;
 
 export class ApiError extends Error {
   constructor(message, status, errors = null) {
@@ -42,10 +44,21 @@ const request = async (path, options = {}) => {
 
   const text = await response.text();
   let payload = null;
+
   try {
     payload = text ? JSON.parse(text) : null;
   } catch {
     payload = null;
+  }
+
+  // A hosting provider can answer API calls with its SPA HTML (Vercel returns
+  // `/index.html` or 405). Surface that as a clear configuration error instead
+  // of silently returning `null` and rendering an empty page.
+  if (payload === null && text.trimStart().startsWith('<')) {
+    throw new ApiError(
+      'The API returned an HTML page instead of JSON. Set VITE_API_URL to your deployed backend URL and redeploy the frontend.',
+      response.status,
+    );
   }
 
   if (!response.ok || payload?.success === false) {
